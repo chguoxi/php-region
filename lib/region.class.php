@@ -11,6 +11,7 @@
  */
 
 class Region {
+    
 	/**
 	 * XML文件存放位置
 	 * 
