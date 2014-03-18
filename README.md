@@ -15,25 +15,25 @@ private $cacheFilename = '你的缓存文件存放的位置';
 	
 
 	
-使用示例：
-require './lib/region.class.php';
+使用示例：<br />
+require './lib/region.class.php'; <br />
 
-$rObj = new Region();
+$rObj = new Region();<br />
 
-//国家列表
-$countryList = $rObj->getCountryList();
+//国家列表<br />
+$countryList = $rObj->getCountryList();<br />
 
-//中国省份列表
+//中国省份列表<br />
 $provinceList = $rObj->getStateList('1');
 
-//广东所有城市列表
+//广东所有城市列表<br />
 $cityList = $rObj->getCityList('1', '44');
 
-//深圳所有区列表
-$areaList = $rObj->getAreaList('1', '44', '3');
+//深圳所有区列表<br />
+$areaList = $rObj->getAreaList('1', '44', '3');<br />
 
-//所有地区关联数组
-$allAreaArr = $rObj->getAssociateArr();
+//所有地区关联数组<br />
+$allAreaArr = $rObj->getAssociateArr();<br />
 
-//获取地区名称
-$regionName = $rObj->getRegionName('1','11','1');
+//获取地区名称<br />
+$regionName = $rObj->getRegionName('1','11','1');<br />
