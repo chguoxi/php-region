@@ -67,7 +67,7 @@ class Region {
 	 * 构造函数,初始化xml对象
 	 */
 	public function __construct(){
-		if ( !file_exists($this->cacheFilename) ){
+		if ( !file_exists($this->regionFilename) ){
 			die('找不到地区XML文件，请确认 regionFilename 文件路径是否正确');
 		}
 		$this->regionXML = simplexml_load_file($this->regionFilename);
