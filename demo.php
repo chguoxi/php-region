@@ -19,9 +19,3 @@ $areaList = $rObj->getAreaList('1', '44', '3');
 
 //所有地区关联数组
 $allAreaArr = $rObj->getAssociateArr();
-
-//var_dump($countryList);
-//var_dump($provinceList);
-//var_dump($cityList);
-//var_dump($areaList);
-var_dump($allAreaArr);
